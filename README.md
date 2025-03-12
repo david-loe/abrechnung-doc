@@ -1,7 +1,3 @@
----
-title: abrechnung🧾 doc
-layout: home
-permalink: /
----
+# abrechnung 🧾 doc
 
-Dokumentation für abrechnung🧾.
+`docker compose up` startet eine lokale Entwicklungsumgebung für die Dokumentation.
