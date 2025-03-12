@@ -1,2 +1,7 @@
-# abrechnung-doc
-Dokumentation für abrechnung.
+---
+title: abrechnung🧾 doc
+layout: home
+permalink: /
+---
+
+Dokumentation für abrechnung🧾.

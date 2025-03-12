@@ -1,0 +1,45 @@
+site_name: abrechnung doc
+site_url: https://david-loe.github.io/abrechnung-doc/
+repo_url: https://github.com/david-loe/abrechnung
+repo_name: david-loe/abrechnung
+
+theme:
+  name: material
+  logo: assets/receipt.svg
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - navigation.footer
+    - content.action.edit
+    - toc.follow
+
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      primary: black
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: black
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/david-loe/abrechnung
+    - icon: fontawesome/brands/docker
+      link: https://hub.docker.com/u/davidloe
