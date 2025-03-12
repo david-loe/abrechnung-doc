@@ -13,5 +13,5 @@ title: Home
 digital und einfach möglich macht.
 
 <video controls>
-<source src="assets/abrechnung-DE-SMALL.mp4" type="video/mp4">
+<source src="assets/videos/abrechnung-DE.mp4" type="video/mp4">
 </video>
