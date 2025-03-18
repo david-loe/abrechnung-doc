@@ -1,3 +1,5 @@
+Setzte `NODE_ENV=production`.
+
 ## Docker Compose
 
 ```yaml
@@ -11,5 +13,12 @@
 Wenn du die Einstellungen nicht über den Admin Link aus dem Backend-Log in der UI einstellen willst, kannst du diese auch per JSON Konfiguration setzten.
 
 > ℹ️ Die JSON Konfiguration wird nur dann gesetzt wenn noch keine Einstellung in der Datenbank vorliegt. Um bestehende Einstellungen zu überschrieben musst du den Eintrag in der `connectionsettings` collection aus der Datenbank löschen.
+
+Überschreibe diese Datei `/build/dist/build/data/connectionSettings.production.json` im backend Container mit deinen Einstellungen. Das geht z.B. über ein volume:
+
+```yaml
+volumes:
+  - ./connectionSettings.production.json:/build/dist/build/data/connectionSettings.production.json
+```
 
 Für die Konfiguration kannst du dich an der [`connectionSettings.development.json`](https://github.com/david-loe/abrechnung/blob/main/backend/data/connectionSettings.development.json) und dem Model Schema [`ConnectionSettings`](https://github.com/david-loe/abrechnung/blob/main/backend/models/connectionSettings.ts) orientiren.
