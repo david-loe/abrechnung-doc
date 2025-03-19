@@ -2,7 +2,7 @@
 title: Home
 ---
 
-# abrechnung 🧾 doc
+# **abrechnung 🧾** doc
 
 **abrechnung 🧾** ist eine Web App die:
 
