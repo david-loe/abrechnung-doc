@@ -48,3 +48,11 @@ plugins:
   - exclude:
       glob:
         - assets/*.md
+
+nav:
+  - Home: index.md
+  - Getting started:
+      - Hosting: hosting.md
+      - Production Setup: production-setup.md
+  - Reisekosten: reisekosten.md
+  - Auslagen: auslagen.md

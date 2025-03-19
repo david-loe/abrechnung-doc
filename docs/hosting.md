@@ -1,8 +1,6 @@
-## Hosting
-
 Du kannst **abrechnung 🧾** ganz einfach unter [reiseabrechner.de](https://reiseabrechner.de) hosten lassen.
 
-### Demo
+## Demo
 
 Zusätzlich findest du dort auch eine [Demo-Installation](https://reiseabrechner.de/demo), um die Funktionen auszuprobieren.
 
