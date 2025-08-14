@@ -30,14 +30,14 @@ Falls du die Verbindungseinstellungen nicht über den Admin-Link aus dem Backend
 Um eigene Einstellungen zu verwenden, überschreibe die folgende Datei im Backend-Container:
 
 ```plaintext
-/build/dist/build/data/connectionSettings.production.json
+/build/dist/data/connectionSettings.production.json
 ```
 
 Dies kann über ein Docker-Volume erfolgen:
 
 ```yaml
 volumes:
-  - ./connectionSettings.production.json:/build/dist/build/data/connectionSettings.production.json
+  - ./connectionSettings.production.json:/build/dist/data/connectionSettings.production.json
 ```
 
 ### Orientierungshilfen für die Konfiguration
